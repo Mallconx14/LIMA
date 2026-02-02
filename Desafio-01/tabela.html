@@ -169,8 +169,8 @@
     
                 <br><br>
     
-                <label for="mundial">Seu time tem mundial?</label>
-                <input type="number" id="mundial" name="mundial" max="3">
+                <label for="mundial">Seu time tem mundial? Se sim, quantos</label>
+                <input type="text" id="mundial" name="mundial">
     
                 <br><br>
     
@@ -188,16 +188,17 @@
             <fieldset>
                 <legend>Você está feliz com a classificação do seu time?</legend>
                 <label for="termos">
-                    <input type="checkbox" id="satisfeito" name="satisfeito" required>
+                    <input type="checkbox" id="satisfeito" name="satisfeito">
                     Estou satisfeito
-                    <input type="checkbox" id="naosatisfeito" name="naosatisfeito" required>
+                    <input type="checkbox" id="naosatisfeito" name="naosatisfeito">
                     Não estou satisfeito
                 </label>
             </fieldset>
     
             <br><br>
     
+            <button type="submit">Enviar</button>
             <button type="reset">Limpar</button>
         </form>
     </body>
-
+</head>
