@@ -159,3 +159,45 @@
                 </tr>
 
             </tbody>
+        </table>
+        <form method="post" action="processar.php">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+    
+                <label for="time">Qual seu time?</label>
+                <input type="text" id="time" name="time" required>
+    
+                <br><br>
+    
+                <label for="mundial">Seu time tem mundial?</label>
+                <input type="number" id="mundial" name="mundial" max="3">
+    
+                <br><br>
+    
+                <label for="brasileirão">Quantos brasileirões seu time tem?</label>
+                <input type="number" id="brasileirão" name="brasileirão" max="12" required>
+    
+                <br><br>
+    
+                <label for="comentario">Deixe seu comentário!</label>
+                <input type="text" id="comentario" name="comentario" required>
+            </fieldset> 
+    
+            <br><br>
+    
+            <fieldset>
+                <legend>Você está feliz com a classificação do seu time?</legend>
+                <label for="termos">
+                    <input type="checkbox" id="satisfeito" name="satisfeito" required>
+                    Estou satisfeito
+                    <input type="checkbox" id="naosatisfeito" name="naosatisfeito" required>
+                    Não estou satisfeito
+                </label>
+            </fieldset>
+    
+            <br><br>
+    
+            <button type="reset">Limpar</button>
+        </form>
+    </body>
+
